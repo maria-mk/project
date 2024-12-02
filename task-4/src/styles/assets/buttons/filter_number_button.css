@@ -1,0 +1,33 @@
+.filter_number_button {
+    border: none;
+    outline: none;
+    background-color: var(--color-background);
+    color: var(--color-accent);
+    width: 127px;
+    height: 31px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.25);
+    font-size: var(--typography-fieldtext);
+    line-height: var(--typography-fieldtext-line-height);
+}
+
+.filter_number_button input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    color: inherit;
+    text-align: center;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

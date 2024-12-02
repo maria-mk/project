@@ -1,0 +1,253 @@
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px; 
+}
+
+.product-image {
+    flex: 0 0 auto;
+    width: 35%;
+    order: 1;
+    margin-top: 52px;
+}
+
+.product-info {
+    flex: 1;
+    max-width: 60%;
+    order: 2; 
+    font-family: var(--font-family);
+    color: var(--color-accent);
+    margin-top: 52px;
+    padding-left: 28px;
+    padding-right: 33px;
+    padding-top: 44px;
+    padding-bottom: 16px;
+    background-color: var(--color-layout);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 72px;
+}
+
+.product-name {
+    font-size: var(--typography-h4);
+    font-weight: var(--typography-heading-weight);
+    line-height: var(--typography-h4-line-height);
+    margin-bottom: 30px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-image-container {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-layout);
+    margin-top: 52px;
+    padding-top: 44px;
+    padding-bottom: 16px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+    .product-details {
+        flex-direction: column;
+    }
+
+    .product-info,
+    .product-image-container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .product-image-container {
+        order: 1; 
+        margin-top: 0;
+    }
+
+    .product-info {
+        order: 2; 
+    }
+}
+
+.product-rating {
+    margin-bottom: 41px;
+    font-size: var(--typography-heading5);
+    font-weight: bold;
+}
+
+.taste-aroma {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 41px;
+    margin-bottom: 66px;
+}
+
+.taste, .aroma {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    font-family: var(--font-family);
+}
+
+.taste > *, .aroma > * {
+    margin: 0;
+}
+
+.taste {
+    order: 1;
+}
+
+.aroma {
+    order: 2;
+}
+
+@media (max-width: 768px) {
+    .taste-aroma {
+        flex-direction: column;
+    }
+
+    .taste, .aroma {
+        width: 100%;
+    }
+
+    .taste {
+        margin-bottom: 20px;
+    }
+}
+
+.taste p, .aroma p {
+    font: var(--typography-body2);
+    margin: 0;
+    color: var(--color-accent);
+}
+
+.price {
+    font: var(--typography-heading4);
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.price::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 2px solid var(--color-accent);
+    pointer-events: none;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 68px;
+    margin-bottom: 50px;
+}
+
+.stores-and-map {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: var(--color-accent);
+}
+
+.store-list {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    gap: 63px;
+}
+
+.map-container {
+    flex: 0 0 611px;
+}
+
+.map-title {
+    font-size: var(--typography-h5);
+    line-height: var(--typography-h5-line-height);
+    margin-bottom: 30px;
+    color: var(--color-accent);
+    font-weight: var(--typography-h5-weight);
+    margin-left: 550px;
+    font-family: var(--font-family);
+}
+
+.map {
+    width: 611px;
+    height: 496px;
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .stores-and-map {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .store-list,
+    .map-container {
+        width: 100%;
+    }
+
+    .store-list {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .map {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 611 / 496;
+    }
+}
+
+.store-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.store-item ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.store-logo {
+    margin-left: 0;
+}
+
+.store-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 48px;
+}
+
+.store-info .price {
+    order: 2;
+    margin-top: 25px;
+}
+
+.store-info .option {
+    order: 1;
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+}

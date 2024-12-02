@@ -1,0 +1,23 @@
+.button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--color-accent);
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: var(--typography-h4);
+    line-height: var(--typography-h4-line-height);
+    font-weight: var(--typography-heading-weight);
+    width: auto;
+    height: auto;
+}
+
+.button--color-active {
+    background-color: var(--color-accent);
+    color: var(--color-background);
+}

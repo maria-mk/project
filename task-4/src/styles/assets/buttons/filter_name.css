@@ -1,0 +1,21 @@
+.filter-name {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: var(--color-background);
+    font-size: var(--typography-h5);
+    line-height: var(--typography-h5-line-height);
+    font-weight: var(--typography-h5-weight);
+    min-height: 49px;
+    padding: 10px 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
