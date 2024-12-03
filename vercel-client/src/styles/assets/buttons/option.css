@@ -1,0 +1,17 @@
+.option {
+    background-color: transparent;
+    font-size: var(--typography-fieldtext);
+    line-height: var(--typography-fieldtext-line-height);
+    font-weight: 400;
+    color: var(--color-background);
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    margin-left: auto;
+}
+
+.option option {
+    background-color: var(--color-background);
+    color: var(--color-accent);
+}
+

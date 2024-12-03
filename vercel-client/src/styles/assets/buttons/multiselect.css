@@ -1,0 +1,113 @@
+.multiselect {
+    width: 295px;
+    max-height: 203px;
+    background-color: var(--color-background);
+    font-size: var(--typography-fieldtext);
+    line-height: var(--typography-fieldtext-line-height);
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    font-family: 'Maven Pro', sans-serif;
+    position: relative;
+}
+
+.selectBox {
+    position: relative;
+}
+
+.selectBox select {
+    width: 100%;
+    height: 35px;
+    font-weight: 500;
+    text-align: left;
+    font-size: var(--typography-fieldtext);
+    line-height: var(--typography-fieldtext-line-height);
+    color: var(--color-accent);
+    border: none;
+    background-color: transparent;
+    font-family: 'Maven Pro', sans-serif;
+    padding-left: 10px; 
+}
+
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+#checkboxes {
+    display: none;
+    border: none;
+    font-family: 'Maven Pro', sans-serif;
+    max-height: 168px;
+    overflow-y: scroll;
+}
+
+#checkboxes::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+#checkboxes::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    height: 20px; /* Уменьшена длина кнопки скролла */
+    width: 3px;
+    background-color: rgba(113, 16, 16, 0.59);
+}
+
+#checkboxes::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+#checkboxes label {
+    font-size: var(--typography-fieldtext);
+    line-height: var(--typography-fieldtext-line-height);
+    display: flex;
+    align-items: center;
+    height: 34px;
+    text-align: left;
+    padding-left: 10px;
+    color: var(--color-accent);
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: normal;
+}
+
+#checkboxes label:hover {
+    background-color: var(--color-hover-field);
+}
+
+#checkboxes input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--color-accent);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-color: transparent;
+}
+
+#checkboxes input[type="checkbox"]:checked {
+    background-color: var(--color-hover-field);
+    position: relative;
+}
+
+#checkboxes input[type="checkbox"]:checked::after {
+    content: '\2714';
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-accent);
+}
+
+#checkboxes label:hover input[type="checkbox"] {
+    background-color: white;
+}
