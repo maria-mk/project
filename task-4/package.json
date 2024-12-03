@@ -5,7 +5,7 @@
   "scripts": {
     "start": "parcel ./src/pages/*.html",
     "build": "parcel build ./src/pages/*.html --no-source-maps --public-url ./",
-    "deploy:pages": "npm run build && gh-pages -d dist"
+    "deploy:pages": "rimraf dist && npm run build && gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
