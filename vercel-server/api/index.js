@@ -12,6 +12,8 @@ const port = 3000;
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (_, response) => response.send('Project API on Vercel'));
+
 app.get('/api/v1/products', (_, response) => {
     const data = products.getAll();
     
