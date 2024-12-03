@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "store_net": "Перекресток",
+        "city": "Санкт-Петербург",
+        "address": "Свердловская наб, 60, лит.В",
+        "image": "https://i.ibb.co/J31NXz5/image-8.png"
+    },
+
+    {
+        "id": "2",
+        "store_net": "Перекресток",
+        "city": "Санкт-Петербург",
+        "address": "Каменноостровский пр-кт, д 10",
+        "image": "https://i.ibb.co/J31NXz5/image-8.png"
+    }, 
+
+    {
+        "id": "3",
+        "store_net": "Лента",
+        "city": "Санкт-Петербург",
+        "address": "пр-кт Юрия Гагарина, д.43",
+        "image": "https://i.ibb.co/5WjyVZL/image-9.png"
+    },
+
+    {
+        "id": "4",
+        "store_net": "Лента",
+        "city": "Санкт-Петербург",
+        "address": "ул. Звездная, д.6",
+        "image": "https://i.ibb.co/5WjyVZL/image-9.png"
+    },
+
+    {
+        "id": "5",
+        "store_net": "Красное и белое",
+        "city": "Санкт-Петербург",
+        "address": "Малоохтинский пр-кт, д.27",
+        "image": "https://i.ibb.co/YRCgSpb/image-10.png"
+    },
+
+    {
+        "id": "6",
+        "store_net": "Красное и белое",
+        "city": "Санкт-Петербург",
+        "address": "Каменноостровский пр-кт, д 25",
+        "image": "https://i.ibb.co/YRCgSpb/image-10.png"
+    }
+
+]

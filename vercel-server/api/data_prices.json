@@ -1,0 +1,92 @@
+[
+    {
+        "product_id": "1",
+        "store_id": "1",
+        "price": 499
+    },
+
+    {
+        "product_id": "1",
+        "store_id": "2",
+        "price": 599
+    },
+
+    {
+        "product_id": "1",
+        "store_id": "3",
+        "price": 699
+    },
+
+    {
+        "product_id": "1",
+        "store_id": "4",
+        "price": 555
+    },
+
+    {
+        "product_id": "1",
+        "store_id": "5",
+        "price": 440
+    },
+
+    {
+        "product_id": "1",
+        "store_id": "6",
+        "price": 470
+    },
+
+    {
+        "product_id": "2",
+        "store_id": "1",
+        "price": 750
+    },
+
+    {
+        "product_id": "2",
+        "store_id": "2",
+        "price": 700
+    },
+
+    {
+        "product_id": "2",
+        "store_id": "3",
+        "price": 799
+    },
+
+    {
+        "product_id": "2",
+        "store_id": "4",
+        "price": 750
+    },
+
+    {
+        "product_id": "3",
+        "store_id": "1",
+        "price": 750
+    },
+
+    {
+        "product_id": "3",
+        "store_id": "5",
+        "price": 800
+    },
+
+    {
+        "product_id": "3",
+        "store_id": "6",
+        "price": 650
+    },
+
+    {
+        "product_id": "4",
+        "store_id": "1",
+        "price": 1200
+    },
+
+    {
+        "product_id": "4",
+        "store_id": "4",
+        "price": 1500
+    }
+    
+]
